@@ -1,0 +1,21 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Source/wikipedia_isaac_newton",
+  "@type": [
+    "em:Source",
+    "annal:EntityData"
+  ],
+  "annal:id": "wikipedia_isaac_newton",
+  "annal:type": "em:Source",
+  "annal:type_id": "Source",
+  "annal:uri": "ems:wikipedia_isaac_newton",
+  "em:link": "https://en.wikipedia.org/wiki/Isaac_Newton",
+  "em:short_label": "Wikiepdia",
+  "rdfs:comment": "# Wikipedia page for Isaac Newton\r\n",
+  "rdfs:label": "Wikipedia page for Isaac Newton"
+}

@@ -1,0 +1,33 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_field/occupation",
+  "@type": [
+    "annal:Field"
+  ],
+  "annal:default_value": "",
+  "annal:field_entity_type": "em:Person",
+  "annal:field_fields": [],
+  "annal:field_placement": "small:0,12",
+  "annal:field_ref_field": "",
+  "annal:field_ref_restriction": "",
+  "annal:field_ref_type": "",
+  "annal:field_render_type": "_enum_render_type/Text",
+  "annal:field_value_mode": "_enum_value_mode/Value_direct",
+  "annal:field_value_type": "",
+  "annal:id": "occupation",
+  "annal:placeholder": "(Occupation)",
+  "annal:property_uri": "em:occupation",
+  "annal:repeat_label_add": "Add",
+  "annal:repeat_label_delete": "Remove",
+  "annal:superproperty_uri": [],
+  "annal:tooltip": "Occupation: significant occupation/role in life.",
+  "annal:type": "annal:Field",
+  "annal:type_id": "_field",
+  "rdfs:comment": "# Occupation\r\n\r\nPrimary occupation/role in life (e.g. scientist, teacher, etc.)\r\n\r\nNot linked to specific time period; see also [Activities]($BASE:_field/person_activities).\r\n\r\n",
+  "rdfs:label": "Occupation"
+}

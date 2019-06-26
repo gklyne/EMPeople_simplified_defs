@@ -1,0 +1,33 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_list/Person_event",
+  "@type": [
+    "annal:List"
+  ],
+  "annal:default_type": "_type/Person_event",
+  "annal:default_view": "_view/Person_event",
+  "annal:display_type": "List",
+  "annal:id": "Person_event",
+  "annal:list_entity_selector": "'em:Person_event' in [@type]",
+  "annal:list_entity_type": "em:Person_event",
+  "annal:list_fields": [
+    {
+      "annal:field_id": "_field/Entity_id",
+      "annal:field_placement": "small:0,3"
+    },
+    {
+      "annal:field_id": "_field/Entity_label",
+      "annal:field_placement": "small:3,9"
+    }
+  ],
+  "annal:type": "annal:List",
+  "annal:type_id": "_list",
+  "annal:uri": "annal:display/Default_list",
+  "rdfs:comment": "# Life event list\n\nList entities of type [Life event]($BASE:_type/Person_event).",
+  "rdfs:label": "Life event list"
+}

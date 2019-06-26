@@ -1,0 +1,28 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Person_activity/Cambridge_lucasian_professor_maths",
+  "@type": [
+    "em:Person_activity",
+    "annal:EntityData"
+  ],
+  "annal:id": "Cambridge_lucasian_professor_maths",
+  "annal:type": "em:Person_activity",
+  "annal:type_id": "Person_activity",
+  "annal:uri": "person_activity:Lucasion_prof_maths_Cambridge",
+  "em:activity": "Person_activity_type/Academic",
+  "em:location": "Cambridge University",
+  "em:participant": [],
+  "em:person_activity_role": "",
+  "em:source": [
+    {
+      "@id": "Source/wikipedia_isaac_newton"
+    }
+  ],
+  "rdfs:comment": "# Lucasian Professor of Maths at Cambridge\r\n\r\nNewton was a fellow of Trinity College and the second Lucasian Professor of Mathematics at the University of Cambridge. ",
+  "rdfs:label": "Lucasian Professor of Maths at Cambridge"
+}

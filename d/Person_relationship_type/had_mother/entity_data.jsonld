@@ -1,0 +1,19 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Person_relationship_type/had_mother",
+  "@type": [
+    "em:Person_relationship_type",
+    "annal:EntityData"
+  ],
+  "annal:id": "had_mother",
+  "annal:type": "em:Person_relationship_type",
+  "annal:type_id": "Person_relationship_type",
+  "annal:uri": "rel_type:had_mother",
+  "rdfs:comment": "# Had mother",
+  "rdfs:label": "Had mother"
+}

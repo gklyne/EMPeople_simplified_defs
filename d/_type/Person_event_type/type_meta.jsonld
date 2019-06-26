@@ -1,0 +1,23 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_type/Person_event_type",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:field_aliases": [],
+  "annal:id": "Person_event_type",
+  "annal:ns_prefix": "rel_type",
+  "annal:supertype_uri": [],
+  "annal:type": "annal:Type",
+  "annal:type_id": "_type",
+  "annal:type_list": "_list/Default_list",
+  "annal:type_view": "_view/Default_view",
+  "annal:uri": "em:Person_event_type",
+  "rdfs:comment": "# Life event type\r\n\r\nIndicates the type of a life-event (e.g. birth, death, etc.).\r\n",
+  "rdfs:label": "Life event type"
+}

@@ -1,0 +1,33 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_field/life_event_type",
+  "@type": [
+    "annal:Field"
+  ],
+  "annal:default_value": "",
+  "annal:field_entity_type": "em:Person_event",
+  "annal:field_fields": [],
+  "annal:field_placement": "small:0,12",
+  "annal:field_ref_field": "",
+  "annal:field_ref_restriction": "",
+  "annal:field_ref_type": "_type/Person_event_type",
+  "annal:field_render_type": "_enum_render_type/Enum",
+  "annal:field_value_mode": "_enum_value_mode/Value_direct",
+  "annal:field_value_type": "em:Person_event_type",
+  "annal:id": "life_event_type",
+  "annal:placeholder": "(Life event type)",
+  "annal:property_uri": "em:life_event_type",
+  "annal:repeat_label_add": "Add",
+  "annal:repeat_label_delete": "Remove",
+  "annal:superproperty_uri": [],
+  "annal:tooltip": "A type of person life event (e.g., birth, death, etc.)",
+  "annal:type": "annal:Field",
+  "annal:type_id": "_field",
+  "rdfs:comment": "# Life event type \r\n\r\nA type of life event (e.g., birth, death, etc.)\r\n",
+  "rdfs:label": "Life event type"
+}

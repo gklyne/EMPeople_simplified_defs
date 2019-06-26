@@ -1,0 +1,19 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Person_activity_type/Academic",
+  "@type": [
+    "em:Person_activity_type",
+    "annal:EntityData"
+  ],
+  "annal:id": "Academic",
+  "annal:type": "em:Person_activity_type",
+  "annal:type_id": "Person_activity_type",
+  "annal:uri": "rel_type:Academic",
+  "rdfs:comment": "# Academic",
+  "rdfs:label": "Academic"
+}

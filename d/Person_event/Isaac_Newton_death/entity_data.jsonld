@@ -1,0 +1,29 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Person_event/Isaac_Newton_death",
+  "@type": [
+    "em:Person_event",
+    "annal:EntityData"
+  ],
+  "annal:id": "Isaac_Newton_death",
+  "annal:type": "em:Person_event",
+  "annal:type_id": "Person_event",
+  "annal:uri": "person_event:Isaac_Newton_death",
+  "em:life_event_end": "",
+  "em:life_event_start": "1727-03-31",
+  "em:life_event_type": "Person_event_type/Death",
+  "em:location": "Kensington, Middlesex, England",
+  "em:participant": [],
+  "em:source": [
+    {
+      "@id": "Source/wikipedia_isaac_newton"
+    }
+  ],
+  "rdfs:comment": "# Isaac Newton death\r\n\r\nThe date above uses the gregorian calendar.  The contemporary Julian calendar date was 1726-03-31.\r\n",
+  "rdfs:label": "Isaac Newton death"
+}

@@ -1,0 +1,39 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_field/had_relationship_many",
+  "@type": [
+    "annal:Field"
+  ],
+  "annal:default_value": "",
+  "annal:field_entity_type": "em:Person",
+  "annal:field_fields": [
+    {
+      "annal:field_id": "_field/had_relationship",
+      "annal:field_placement": "small:0,12",
+      "annal:property_uri": "@id"
+    }
+  ],
+  "annal:field_placement": "small:0,12",
+  "annal:field_ref_field": "",
+  "annal:field_ref_restriction": "",
+  "annal:field_ref_type": "",
+  "annal:field_render_type": "_enum_render_type/Group_Set_Row",
+  "annal:field_value_mode": "_enum_value_mode/Value_direct",
+  "annal:field_value_type": "em:Person",
+  "annal:id": "had_relationship_many",
+  "annal:placeholder": "(Zero, one or more relationship fields)",
+  "annal:property_uri": "em:had_relationship",
+  "annal:repeat_label_add": "Add relationship",
+  "annal:repeat_label_delete": "Remove relationship",
+  "annal:superproperty_uri": [],
+  "annal:tooltip": "Zero, one or more relationship fields",
+  "annal:type": "annal:Field",
+  "annal:type_id": "_field",
+  "rdfs:comment": "# Had relationships\r\n\r\nZero, one or more instances of [Has relationship]($BASE:_field/has_relationship).",
+  "rdfs:label": "Had relationships"
+}

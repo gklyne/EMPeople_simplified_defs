@@ -1,0 +1,34 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Person/Hannah_Ayscough",
+  "@type": [
+    "em:Person",
+    "annal:EntityData"
+  ],
+  "annal:id": "Hannah_Ayscough",
+  "annal:type": "em:Person",
+  "annal:type_id": "Person",
+  "annal:uri": "person:Hannah_Ayscough",
+  "em:alias": [],
+  "em:date_birth": "",
+  "em:date_death": "",
+  "em:engaged_in_activity": [],
+  "em:family_name": "Ayscough",
+  "em:full_name": "Hannah Ayscough",
+  "em:gender": "F",
+  "em:had_life_event": [],
+  "em:had_relationship": [],
+  "em:honorific": "",
+  "em:name_language": "En",
+  "em:occupation": [],
+  "em:other_names": "",
+  "em:personal_name": "Hannah",
+  "em:source": [],
+  "rdfs:comment": "# Hannah Ayscough\r\n\r\nMother of Isaac Newton.",
+  "rdfs:label": "Hannah Ayscough"
+}

@@ -1,0 +1,24 @@
+{
+  "@context": [
+    {
+      "@base": "./"
+    },
+    "coll_context.jsonld"
+  ],
+  "@id": "../",
+  "@type": [
+    "annal:Collection"
+  ],
+  "annal:default_list": "Place",
+  "annal:default_view_entity": null,
+  "annal:default_view_id": null,
+  "annal:default_view_type": null,
+  "annal:id": "EMPeople_simplified_defs",
+  "annal:inherit_from": "",
+  "annal:meta_comment": "",
+  "annal:software_version": "0.5.9",
+  "annal:type": "annal:Collection",
+  "annal:type_id": "_coll",
+  "rdfs:comment": "# EMPeople historical people simplified definitions\r\n\r\nDefinitions for representing historical people using a simple schema.  The intent is to use this to get a feel for useful information coverage that can subsequently be mapped to a more comprehensive data model schema based on existing prosopographical ontologies.\r\n\r\n",
+  "rdfs:label": "EMPeople historical people simplified definitions"
+}

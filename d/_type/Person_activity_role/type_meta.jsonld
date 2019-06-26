@@ -1,0 +1,23 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_type/Person_activity_role",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:field_aliases": [],
+  "annal:id": "Person_activity_role",
+  "annal:ns_prefix": "rel_type",
+  "annal:supertype_uri": [],
+  "annal:type": "annal:Type",
+  "annal:type_id": "_type",
+  "annal:type_list": "_list/Default_list",
+  "annal:type_view": "_view/Default_view",
+  "annal:uri": "em:Person_activity_role",
+  "rdfs:comment": "# Activity role\r\n\r\nIndicates the role of a person in an activity.",
+  "rdfs:label": "Activity role"
+}

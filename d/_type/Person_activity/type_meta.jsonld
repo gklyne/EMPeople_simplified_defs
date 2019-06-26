@@ -1,0 +1,23 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_type/Person_activity",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:field_aliases": [],
+  "annal:id": "Person_activity",
+  "annal:ns_prefix": "person_activity",
+  "annal:supertype_uri": [],
+  "annal:type": "annal:Type",
+  "annal:type_id": "_type",
+  "annal:type_list": "_list/Person_activity",
+  "annal:type_view": "_view/Person_activity",
+  "annal:uri": "em:Person_activity",
+  "rdfs:comment": "# Activity\r\n\r\nAn activity or notable role for which a person is known.\r\n\r\n(See also: [Life event]($BASE:_type/Life_event).  It's not currently clear if these should be distinct classes.)\r\n\r\nInformation may include:\r\n\r\n- id\r\n- label\r\n- type/category of activity\r\n- role(s) in activity\r\n- other participants\r\n- time period of activity\r\n    - floruit - period of greatest activity/flourishing\r\n- location of activity\r\n- field of activity\r\n    - cf. SAR, FRBRoo \"R59 had typical subject\"\r\n- source(s) of information about activity\r\n",
+  "rdfs:label": "Activity"
+}

@@ -1,0 +1,33 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_field/gender",
+  "@type": [
+    "annal:Field"
+  ],
+  "annal:default_value": "",
+  "annal:field_entity_type": "em:Person",
+  "annal:field_fields": [],
+  "annal:field_placement": "small:0,12;medium:0,4",
+  "annal:field_ref_field": "",
+  "annal:field_ref_restriction": "",
+  "annal:field_ref_type": "",
+  "annal:field_render_type": "_enum_render_type/Text",
+  "annal:field_value_mode": "_enum_value_mode/Value_direct",
+  "annal:field_value_type": "",
+  "annal:id": "gender",
+  "annal:placeholder": "(Gender)",
+  "annal:property_uri": "em:gender",
+  "annal:repeat_label_add": "Add",
+  "annal:repeat_label_delete": "Remove",
+  "annal:superproperty_uri": [],
+  "annal:tooltip": "Described gender of person.",
+  "annal:type": "annal:Field",
+  "annal:type_id": "_field",
+  "rdfs:comment": "# Gender\r\n\r\nDescribed gender of person.\r\n\r\n(Not to be confused with biological sex? For example, [Dr James Barrie](https://en.wikipedia.org/wiki/James_Barry_%28surgeon%29) would be recorded as male, despite having apparently been born and biologically a female.  See also: [Wikipedia policy notes](https://en.wikipedia.org/wiki/Wikipedia:Gender_identity).)\r\n",
+  "rdfs:label": "Gender"
+}

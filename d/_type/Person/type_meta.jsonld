@@ -1,0 +1,23 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_type/Person",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:field_aliases": [],
+  "annal:id": "Person",
+  "annal:ns_prefix": "person",
+  "annal:supertype_uri": [],
+  "annal:type": "annal:Type",
+  "annal:type_id": "_type",
+  "annal:type_list": "_list/Person",
+  "annal:type_view": "_view/Person",
+  "annal:uri": "em:Person",
+  "rdfs:comment": "# Person\r\n\r\nA person may be an imagined or mythological character, but not an organization or other kind of entity with \"agency\".\r\n\r\nInformation may include:\r\n\r\n- id\r\n    - Identifier provider\r\n    - Identifier source\r\n- name parts (e.g. components: first, last, salutation/honorific)\r\n    - but note different cultures use different structures\r\n        - e.g. see https://www.fbiic.gov/public/2008/nov/Naming_practice_guide_UK_2006.pdf\r\n            - variations that don't include the common personal name + family name pattern:\r\n                - Somali, Portuguese, Spanish, Arab muslim, Pakistani muslim, Sikh, Tamil, \r\n    - a structure of honorific, personal name, family name, other names might cover many cases\r\n    - name language\r\n- full name (composite rendering of combined name parts)\r\n- label (descriptive: name or name+other information)\r\n- description\r\n- aliases\r\n- date of birth\r\n- date of death\r\n- primary occupation/roles in life (e.g. scientist, teacher, etc.)\r\n    - (not linked to specific time period; see also: activities)\r\n- source(s) of information\r\n",
+  "rdfs:label": "Person"
+}

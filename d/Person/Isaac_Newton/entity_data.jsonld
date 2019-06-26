@@ -1,0 +1,66 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Person/Isaac_Newton",
+  "@type": [
+    "em:Person",
+    "annal:EntityData"
+  ],
+  "annal:id": "Isaac_Newton",
+  "annal:missing_field": "",
+  "annal:type": "em:Person",
+  "annal:type_id": "Person",
+  "annal:uri": "person:00000001",
+  "em:alias": [],
+  "em:date_birth": "1643-01-04",
+  "em:date_death": "1727-03-31",
+  "em:engaged_in_activity": [
+    {
+      "@id": "Person_activity/Cambridge_lucasian_professor_maths"
+    },
+    {
+      "@id": "Person_activity/Fellow_trinity_college"
+    }
+  ],
+  "em:family_name": "Newton",
+  "em:full_name": "Isaac Newton",
+  "em:gender": "M",
+  "em:had_life_event": [
+    {
+      "@id": "Person_event/Isaac_Newton_birth"
+    },
+    {
+      "@id": "Person_event/Isaac_Newton_death"
+    }
+  ],
+  "em:had_relationship": [
+    {
+      "@id": ""
+    }
+  ],
+  "em:has_life_event": [
+    {
+      "@id": null
+    }
+  ],
+  "em:honorific": "Sir",
+  "em:name_language": "en",
+  "em:occupation": [
+    {
+      "@id": "Natural philosopher"
+    }
+  ],
+  "em:other_names": "",
+  "em:personal_name": "Isaac",
+  "em:source": [
+    {
+      "@id": "Source/wikipedia_isaac_newton"
+    }
+  ],
+  "rdfs:comment": "# Isaac Newton (Scientist)\r\n\r\nSir Isaac Newton FRS PRS (25 December 1642 \u2013 20 March 1726/27[a]) was an English mathematician, physicist, astronomer, theologian, and author (described in his own day as a \"natural philosopher\") who is widely recognised as one of the most influential scientists of all time, and a key figure in the scientific revolution. His book Philosophi\u00e6 Naturalis Principia Mathematica (\"Mathematical Principles of Natural Philosophy\"), first published in 1687, laid the foundations of classical mechanics. Newton also made seminal contributions to optics, and shares credit with Gottfried Wilhelm Leibniz for developing the infinitesimal calculus.\r\n\r\nNOTE: dates above are contemporary calendars.  Below are Gregorian dates.\r\n",
+  "rdfs:label": "Isaac Newton (Scientist)"
+}

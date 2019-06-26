@@ -1,0 +1,29 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Person_relationship/Isaac_Newton_mother",
+  "@type": [
+    "em:Person_relationship",
+    "annal:EntityData"
+  ],
+  "annal:id": "Isaac_Newton_mother",
+  "annal:type": "em:Person_relationship",
+  "annal:type_id": "Person_relationship",
+  "annal:uri": "relationship:Isaac_Newton_mother",
+  "em:relationship_end": "",
+  "em:relationship_from": "Person/Isaac_Newton",
+  "em:relationship_start": "1643-01-04",
+  "em:relationship_to": "Person/Hannah_Ayscough",
+  "em:relationship_type": "Person_relationship_type/had_mother",
+  "em:source": [
+    {
+      "@id": "Source/wikipedia_isaac_newton"
+    }
+  ],
+  "rdfs:comment": "His father, also named Isaac Newton, had died three months before. Born prematurely, Newton was a small child; his mother Hannah Ayscough reportedly said that he could have fit inside a quart mug.",
+  "rdfs:label": "Isaac Newton mother"
+}

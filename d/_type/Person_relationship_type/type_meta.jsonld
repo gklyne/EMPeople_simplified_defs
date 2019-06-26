@@ -1,0 +1,23 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_type/Person_relationship_type",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:field_aliases": [],
+  "annal:id": "Person_relationship_type",
+  "annal:ns_prefix": "rel_type",
+  "annal:supertype_uri": [],
+  "annal:type": "annal:Type",
+  "annal:type_id": "_type",
+  "annal:type_list": "_list/Default_list",
+  "annal:type_view": "_view/Default_view",
+  "annal:uri": "em:Person_relationship_type",
+  "rdfs:comment": "# Relationship type\r\n\r\nValue indicates a type of relationship that may hold between 2 (or more?) people.\r\n\r\nE.g. see [SNAP](http://snapdrgn.net/ontology) for candidate values",
+  "rdfs:label": "Relationship type"
+}

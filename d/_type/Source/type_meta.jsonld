@@ -1,0 +1,23 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_type/Source",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:field_aliases": [],
+  "annal:id": "Source",
+  "annal:ns_prefix": "ems",
+  "annal:supertype_uri": [],
+  "annal:type": "annal:Type",
+  "annal:type_id": "_type",
+  "annal:type_list": "_list/Source",
+  "annal:type_view": "_view/Source",
+  "annal:uri": "em:Source",
+  "rdfs:comment": "# Information source view\r\n\r\nA resource that denotes the source of a claim or data about a place (e.g. GeoNames).\r\n\r\nSubtype [Authority]($BASE:_type/Authority) is used for authoritative sources.\r\n",
+  "rdfs:label": "Information source"
+}

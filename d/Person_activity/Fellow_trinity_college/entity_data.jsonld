@@ -1,0 +1,28 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Person_activity/Fellow_trinity_college",
+  "@type": [
+    "em:Person_activity",
+    "annal:EntityData"
+  ],
+  "annal:id": "Fellow_trinity_college",
+  "annal:type": "em:Person_activity",
+  "annal:type_id": "Person_activity",
+  "annal:uri": "person_activity:Fellow_trinity_college",
+  "em:activity": "Person_activity_type/Academic",
+  "em:location": "Cambridge University",
+  "em:participant": [],
+  "em:person_activity_role": "",
+  "em:source": [
+    {
+      "@id": "Source/wikipedia_isaac_newton"
+    }
+  ],
+  "rdfs:comment": "# Fellow of Trinity College\r\n\r\nNewton was a fellow of Trinity College and the second Lucasian Professor of Mathematics at the University of Cambridge.\r\n",
+  "rdfs:label": "Fellow of Trinity College"
+}

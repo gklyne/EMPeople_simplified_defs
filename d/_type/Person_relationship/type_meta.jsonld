@@ -1,0 +1,23 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_type/Person_relationship",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:field_aliases": [],
+  "annal:id": "Person_relationship",
+  "annal:ns_prefix": "relationship",
+  "annal:supertype_uri": [],
+  "annal:type": "annal:Type",
+  "annal:type_id": "_type",
+  "annal:type_list": "_list/Person_relationship",
+  "annal:type_view": "_view/Person_relationship",
+  "annal:uri": "em:Person_relationship",
+  "rdfs:comment": "# Relationship\r\n\r\nA relationship between people.\r\n\r\nFor simplicity, this initial design assumes a relationship between 2 people.  But there are some indications of other kinds of relationship (e.g. through group membership, which might be captured here, but then a person's role-in-relationship would need to be recorded explicitly.)\r\n\r\nE.g,. see terms defined by [SNAP ontology](http://snapdrgn.net/ontology)\r\n\r\nInformation may include:\r\n\r\n- id\r\n- label\r\n- description\r\n- type/category of relationship (cf. SNAP)\r\n- ref other person(s)\r\n- time (period?) of relationship\r\n\r\n## Disambiguating features\r\n\r\nSNAP makes reference to the following as \"disambiguating features\".\r\n\r\n- associated date\r\n- associated place\r\n- occupation\r\n\r\nIt's not clear to me how to usefully include these in the model structure, so for now I suggest that relevant disambiguating details are added to the description/comment text.  It may become clear later whether or not these should be part of the data model structure.\r\n\r\n## Person-to-non-person relationships\r\n\r\nThe Swiss Art Research person reference model mentions the following:\r\n\r\n- Less obvious examples from SAR:\r\n    - National affiliation\r\n    - Cultural affiliation\r\n    - Institutional affiliation\r\n    - Associate: P11i Participated in - E5 Event - P11i - E21 (@@Eh?)\r\n- knowledge/skills/specialization\r\n    - e.g. languages used (SAR)\r\n\r\nThese don't fit into the interpersonal relation structure; for now I suggest adding relevant details to the description text for a person.\r\n\r\n",
+  "rdfs:label": "Relationship"
+}

@@ -27,7 +27,7 @@
     }
   ],
   "em:family_name": "Newton",
-  "em:full_name": "Isaac Newton",
+  "em:full_name": "Sir Isaac Newton",
   "em:gender": "M",
   "em:had_life_event": [
     {
@@ -39,7 +39,7 @@
   ],
   "em:had_relationship": [
     {
-      "@id": ""
+      "@id": "Person_relationship/Isaac_Newton_mother"
     }
   ],
   "em:has_life_event": [

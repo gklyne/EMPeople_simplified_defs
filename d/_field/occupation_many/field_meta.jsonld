@@ -15,7 +15,7 @@
     {
       "annal:field_id": "_field/occupation",
       "annal:field_placement": "small:0,12",
-      "annal:property_uri": "@id"
+      "annal:property_uri": "@value"
     }
   ],
   "annal:field_placement": "small:0,12",

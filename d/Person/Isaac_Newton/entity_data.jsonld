@@ -11,10 +11,9 @@
     "annal:EntityData"
   ],
   "annal:id": "Isaac_Newton",
-  "annal:missing_field": "",
   "annal:type": "em:Person",
   "annal:type_id": "Person",
-  "annal:uri": "person:00000001",
+  "annal:uri": "https://www.wikidata.org/wiki/Q935",
   "em:alias": [],
   "em:date_birth": "1643-01-04",
   "em:date_death": "1727-03-31",
@@ -27,7 +26,7 @@
     }
   ],
   "em:family_name": "Newton",
-  "em:full_name": "Sir Isaac Newton",
+  "em:full_name": "Sir Isaac Newton, FRS PRS",
   "em:gender": "M",
   "em:had_life_event": [
     {
@@ -51,11 +50,14 @@
   "em:name_language": "en",
   "em:occupation": [
     {
-      "@id": "Natural philosopher"
+      "@value": "Natural philosopher"
     }
   ],
   "em:other_names": "",
+  "em:person_id": "Q935",
+  "em:person_id_source": "Source/wikidata_isaac_newton",
   "em:personal_name": "Isaac",
+  "em:qualifications": "FRS PRS",
   "em:source": [
     {
       "@id": "Source/wikipedia_isaac_newton"

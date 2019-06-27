@@ -1,0 +1,21 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Source/wikidata_isaac_newton",
+  "@type": [
+    "em:Source",
+    "annal:EntityData"
+  ],
+  "annal:id": "wikidata_isaac_newton",
+  "annal:type": "em:Source",
+  "annal:type_id": "Source",
+  "annal:uri": "ems:wikidata_isaac_newton",
+  "em:link": "https://www.wikidata.org/wiki/Q935",
+  "em:short_label": "Wikidata",
+  "rdfs:comment": "# Wikidata for Isaac Newton",
+  "rdfs:label": "Wikidata for Isaac Newton"
+}

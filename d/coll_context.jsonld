@@ -3,6 +3,8 @@
     "_base_": "http://localhost:8000/annalist/c/EMPeople_simplified_defs/d/",
     "_coll_": "http://localhost:8000/annalist/c/EMPeople_simplified_defs/",
     "_site_": "http://localhost:8000/annalist/",
+    "activity_role": "http://id.emplaces.info/person_activity_role/",
+    "activity_type": "http://id.emplaces.info/person_activity_type/",
     "annal": "http://purl.org/annalist/2014/#",
     "annal:alias_source": {
       "@type": "@id",
@@ -229,16 +231,169 @@
       "fid": "View_fields",
       "vid": "View_view"
     },
-    "ems": "http://localhost:8000/annalist/c/EMPeople_simplified_defs/d/Source/",
+    "em": "http://id.emplaces.info/vocab/",
+    "em:activity": {
+      "@type": "@id",
+      "fid": "activity_type",
+      "vid": "Person_activity"
+    },
+    "em:alias": {
+      "@container": "@set",
+      "@type": "@id",
+      "fid": "alias_many",
+      "vid": "Person"
+    },
+    "em:date_birth": {
+      "fid": "date_birth",
+      "vid": "Person"
+    },
+    "em:date_death": {
+      "fid": "date_death",
+      "vid": "Person"
+    },
+    "em:engaged_in_activity": {
+      "@container": "@set",
+      "@type": "@id",
+      "fid": "engaged_in_activity_many",
+      "vid": "Person"
+    },
+    "em:family_name": {
+      "fid": "family_name",
+      "vid": "Person"
+    },
+    "em:full_name": {
+      "fid": "full_name",
+      "vid": "Person"
+    },
+    "em:gender": {
+      "fid": "gender",
+      "vid": "Person"
+    },
+    "em:had_life_event": {
+      "@container": "@set",
+      "@type": "@id",
+      "fid": "had_life_event_many",
+      "vid": "Person"
+    },
+    "em:had_relationship": {
+      "@container": "@set",
+      "@type": "@id",
+      "fid": "had_relationship_many",
+      "vid": "Person"
+    },
+    "em:honorific": {
+      "fid": "honorific",
+      "vid": "Person"
+    },
+    "em:life_event_end": {
+      "fid": "life_event_end",
+      "vid": "Person_event"
+    },
+    "em:life_event_start": {
+      "fid": "life_event_start",
+      "vid": "Person_event"
+    },
+    "em:life_event_type": {
+      "@type": "@id",
+      "fid": "life_event_type",
+      "vid": "Person_event"
+    },
+    "em:link": {
+      "@type": "@id",
+      "fid": "link",
+      "vid": "Source"
+    },
+    "em:location": {
+      "fid": "location",
+      "vid": "Person_activity"
+    },
+    "em:name_language": {
+      "fid": "name_language",
+      "vid": "Person"
+    },
+    "em:occupation": {
+      "@container": "@set",
+      "@type": "@id",
+      "fid": "occupation_many",
+      "vid": "Person"
+    },
+    "em:other_names": {
+      "fid": "other_names",
+      "vid": "Person"
+    },
+    "em:participant": {
+      "@container": "@set",
+      "@type": "@id",
+      "fid": "participant_many",
+      "vid": "Person_activity"
+    },
+    "em:person_activity_role": {
+      "@type": "@id",
+      "fid": "person_activity_role",
+      "vid": "Person_activity"
+    },
+    "em:person_id": {
+      "fid": "person_id",
+      "vid": "Person"
+    },
+    "em:person_id_source": {
+      "@type": "@id",
+      "fid": "person_id_source",
+      "vid": "Person"
+    },
+    "em:personal_name": {
+      "fid": "personal_name",
+      "vid": "Person"
+    },
+    "em:qualifications": {
+      "fid": "qualifications",
+      "vid": "Person"
+    },
+    "em:relationship_end": {
+      "fid": "relationship_end",
+      "vid": "Person_relationship"
+    },
+    "em:relationship_from": {
+      "@type": "@id",
+      "fid": "relationship_from",
+      "vid": "Person_relationship"
+    },
+    "em:relationship_start": {
+      "fid": "relationship_start",
+      "vid": "Person_relationship"
+    },
+    "em:relationship_to": {
+      "@type": "@id",
+      "fid": "relationship_to",
+      "vid": "Person_relationship"
+    },
+    "em:relationship_type": {
+      "@type": "@id",
+      "fid": "relationship_type",
+      "vid": "Person_relationship"
+    },
+    "em:short_label": {
+      "fid": "short_label",
+      "vid": "Source"
+    },
+    "em:source": {
+      "@container": "@set",
+      "@type": "@id",
+      "fid": "source_many",
+      "vid": "Person"
+    },
+    "ems": "http://id.emplaces.info/source/",
+    "event_type": "http://id.emplaces.info/person_event_type/",
     "import_name": "annal:import_name",
     "import_url": {
       "@id": "annal:import_url",
       "@type": "@id"
     },
     "owl": "http://www.w3.org/2002/07/owl#",
-    "person": "http://localhost:8000/annalist/c/EMPeople_simplified_defs/d/Person/",
-    "person_activity": "http://localhost:8000/annalist/c/EMPeople_simplified_defs/d/Person_activity/",
-    "person_event": "http://localhost:8000/annalist/c/EMPeople_simplified_defs/d/Person_event/",
+    "person": "http://id.emplaces.info/person/",
+    "person_activity": "http://id.emplaces.info/person_activity/",
+    "person_event": "http://id.emplaces.info/person_event/",
+    "person_relationship": "http://id.emplaces.info/person_relationship/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
     "rdfs:comment": {
@@ -257,6 +412,7 @@
     },
     "rel_type": "http://localhost:8000/annalist/c/EMPeople_simplified_defs/d/Person_relationship_type/",
     "relationship": "http://localhost:8000/annalist/c/EMPeople_simplified_defs/d/Person_relationship/",
+    "relationship_type": "http://id.emplaces.info/person_relationship_type/",
     "resource_name": "annal:resource_name",
     "resource_type": "annal:resource_type",
     "upload_name": "annal:upload_name",
@@ -264,5 +420,5 @@
     "uploaded_size": "annal:uploaded_size",
     "xsd": "http://www.w3.org/2001/XMLSchema#"
   },
-  "_comment": "Generated by generate_coll_jsonld_context on 2019-06-26 15:51:37"
+  "_comment": "Generated by generate_coll_jsonld_context on 2019-06-27 10:02:57"
 }

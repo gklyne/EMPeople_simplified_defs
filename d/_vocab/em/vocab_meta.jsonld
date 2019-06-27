@@ -1,0 +1,19 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_vocab/em",
+  "@type": [
+    "annal:Vocabulary"
+  ],
+  "annal:id": "em",
+  "annal:type": "annal:Vocabulary",
+  "annal:type_id": "_vocab",
+  "annal:uri": "http://id.emplaces.info/vocab/",
+  "rdfs:comment": "# EM vocabulary namespace\r\n\r\nNamespace used for terms (RDF types, properties) in the various CofK Early Modern ontologies.\r\n",
+  "rdfs:label": "EM vocabulary namespace",
+  "rdfs:seeAlso": []
+}

@@ -1,0 +1,19 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_vocab/activity_role",
+  "@type": [
+    "annal:Vocabulary"
+  ],
+  "annal:id": "activity_role",
+  "annal:type": "annal:Vocabulary",
+  "annal:type_id": "_vocab",
+  "annal:uri": "http://id.emplaces.info/person_activity_role/",
+  "rdfs:comment": "# Activity role\r\n\r\nNamespace for creating identifiers for [Person_activity_role]($BASE:_type/Person_activity_role) instances.\r\n",
+  "rdfs:label": "Activity role",
+  "rdfs:seeAlso": []
+}

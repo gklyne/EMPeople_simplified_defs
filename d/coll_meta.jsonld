@@ -10,9 +10,9 @@
     "annal:Collection"
   ],
   "annal:default_list": "Place",
-  "annal:default_view_entity": null,
-  "annal:default_view_id": null,
-  "annal:default_view_type": null,
+  "annal:default_view_entity": "README",
+  "annal:default_view_id": "Info_view",
+  "annal:default_view_type": "Default_type",
   "annal:id": "EMPeople_simplified_defs",
   "annal:inherit_from": "",
   "annal:meta_comment": "",

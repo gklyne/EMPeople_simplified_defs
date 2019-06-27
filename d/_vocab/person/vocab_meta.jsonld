@@ -1,0 +1,19 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_vocab/person",
+  "@type": [
+    "annal:Vocabulary"
+  ],
+  "annal:id": "person",
+  "annal:type": "annal:Vocabulary",
+  "annal:type_id": "_vocab",
+  "annal:uri": "http://id.emplaces.info/person/",
+  "rdfs:comment": "# Person\r\n\r\nConvenience namespace for creating identifiers for [Person]($BASE:_type/Person) instances.\r\n\r\nIt is not a requirement that all instances of [Person]($BASE:_type/Person) have URIs allocated in this namespace.",
+  "rdfs:label": "Person",
+  "rdfs:seeAlso": []
+}

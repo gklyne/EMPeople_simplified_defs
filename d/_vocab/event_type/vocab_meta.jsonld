@@ -1,0 +1,19 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_vocab/event_type",
+  "@type": [
+    "annal:Vocabulary"
+  ],
+  "annal:id": "event_type",
+  "annal:type": "annal:Vocabulary",
+  "annal:type_id": "_vocab",
+  "annal:uri": "http://id.emplaces.info/person_event_type/",
+  "rdfs:comment": "# Life event type\r\n\r\nNamespace for creating identifiers for [Person_event_type]($BASE:_type/Person_event_type) instances.\r\n",
+  "rdfs:label": "Life event type",
+  "rdfs:seeAlso": []
+}

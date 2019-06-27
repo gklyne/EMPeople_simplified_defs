@@ -1,0 +1,19 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_vocab/relationship_type",
+  "@type": [
+    "annal:Vocabulary"
+  ],
+  "annal:id": "relationship_type",
+  "annal:type": "annal:Vocabulary",
+  "annal:type_id": "_vocab",
+  "annal:uri": "http://id.emplaces.info/person_relationship_type/",
+  "rdfs:comment": "# Relationship type\r\n\r\nNamespace for creating identifiers for [Person_relationship_type]($BASE:_type/Person_relationship_type) instances.\r\n",
+  "rdfs:label": "Relationship type",
+  "rdfs:seeAlso": []
+}

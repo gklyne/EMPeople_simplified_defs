@@ -1,0 +1,19 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_vocab/person_relationship",
+  "@type": [
+    "annal:Vocabulary"
+  ],
+  "annal:id": "person_relationship",
+  "annal:type": "annal:Vocabulary",
+  "annal:type_id": "_vocab",
+  "annal:uri": "http://id.emplaces.info/person_relationship/",
+  "rdfs:comment": "# Person relationship\r\n\r\nNamespace for creating identifiers for [Person_relationship]($BASE:_type/Person_relationship) instances.\r\n\r\nIt is not a requirement that all instances of [Person_relationship]($BASE:_type/Person_relationship) have URIs allocated in this namespace.\r\n",
+  "rdfs:label": "Person relationship",
+  "rdfs:seeAlso": []
+}

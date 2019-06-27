@@ -1,0 +1,18 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Default_type/TODO",
+  "@type": [
+    "annal:Default_type",
+    "annal:EntityData"
+  ],
+  "annal:id": "TODO",
+  "annal:type": "annal:Default_type",
+  "annal:type_id": "Default_type",
+  "rdfs:comment": "# EM People linked data experiment\r\n\r\nSee [README]($BASE:Default_type/README).\r\n\r\n\r\n# TODO\r\n\r\n- [x] Namespace definitions\r\n- [x] Person identifiers\r\n- [ ] Multiple identifiers\r\n- [ ] Qualifications, etc (e.g. FRS for Newton)\r\n- [ ] Identifier in Source view\r\n- [ ] Factor out elements shared with EM Places\r\n- [ ] Floruit\r\n\r\n",
+  "rdfs:label": "TODO for EM People data collection"
+}

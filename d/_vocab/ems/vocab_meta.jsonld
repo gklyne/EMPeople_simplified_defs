@@ -1,0 +1,19 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_vocab/ems",
+  "@type": [
+    "annal:Vocabulary"
+  ],
+  "annal:id": "ems",
+  "annal:type": "annal:Vocabulary",
+  "annal:type_id": "_vocab",
+  "annal:uri": "http://id.emplaces.info/source/",
+  "rdfs:comment": "# Source entity namespace\r\n\r\nNamespace for creating identifiers for [Source]($BASE:_type/Source) instances.\r\n",
+  "rdfs:label": "Source entity namespace",
+  "rdfs:seeAlso": []
+}

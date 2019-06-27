@@ -1,0 +1,33 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_field/person_id_source",
+  "@type": [
+    "annal:Field"
+  ],
+  "annal:default_value": "",
+  "annal:field_entity_type": "em:Person",
+  "annal:field_fields": [],
+  "annal:field_placement": "small:0,12;medium:6,6",
+  "annal:field_ref_field": "",
+  "annal:field_ref_restriction": "",
+  "annal:field_ref_type": "_type/Source",
+  "annal:field_render_type": "_enum_render_type/Enum",
+  "annal:field_value_mode": "_enum_value_mode/Value_direct",
+  "annal:field_value_type": "em:Source",
+  "annal:id": "person_id_source",
+  "annal:placeholder": "(Source of person identifier)",
+  "annal:property_uri": "em:person_id_source",
+  "annal:repeat_label_add": "Add",
+  "annal:repeat_label_delete": "Remove",
+  "annal:superproperty_uri": [],
+  "annal:tooltip": "Source of identifier in 'Person identifier' field.",
+  "annal:type": "annal:Field",
+  "annal:type_id": "_field",
+  "rdfs:comment": "# Person identifier source\r\n\r\nSource of identifier in [Person identifier]($BASE:_field/person_id) field.",
+  "rdfs:label": "Person identifier source"
+}
